@@ -29,69 +29,68 @@ const Productlist = ()=>{
                     <div className="col-12">
                         <div className="card-columns mb-4">
                             <div className="card">
-                                <img className="card-img-top" src="../assets/images/image-gallery/12.jpg" alt="Card image cap"/>
+                                <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                             <div className="card">
-                                <img className="card-img-top" src="../assets/images/image-gallery/12.jpg" alt="Card image cap"/>
+                                <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                             <div className="card">
-                                <img className="card-img-top" src="../assets/images/image-gallery/12.jpg" alt="Card image cap"/>
+                                <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                             <div className="card">
-                                <img className="card-img-top" src="../assets/images/image-gallery/12.jpg" alt="Card image cap"/>
+                                <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                             <div className="card">
-                                <img className="card-img-top" src="../assets/images/image-gallery/12.jpg" alt="Card image cap"/>
+                                <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                             <div className="card">
-                                <img className="card-img-top" src="../assets/images/image-gallery/12.jpg" alt="Card image cap"/>
+                                <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                             <div className="card">
-                                <img className="card-img-top" src="../assets/images/image-gallery/12.jpg" alt="Card image cap"/>
+                                <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                             <div className="card">
-                                <img className="card-img-top" src="../assets/images/image-gallery/12.jpg" alt="Card image cap"/>
+                                <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                             <div className="card">
-                                <img className="card-img-top" src="../assets/images/image-gallery/12.jpg" alt="Card image cap"/>
+                                <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>

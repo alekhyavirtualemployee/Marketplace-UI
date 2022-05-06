@@ -1,0 +1,17 @@
+.layout-fullwidth #wrapper #main-content{
+    background: #fcfcff;
+}
+.card{
+    background: #fcfcff;
+    background-color: #fcfcff;
+    border-color: #fcfcff;
+}
+
+.dashboard-cards .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 2;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 1;
+    }
+}

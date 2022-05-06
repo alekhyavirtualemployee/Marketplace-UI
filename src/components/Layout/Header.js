@@ -8,12 +8,12 @@ const Header = ()=>{
                 <div className='navbar-left'>
                     <div className="navbar-btn">
                         <a href="index.html">
-                            <img src="../assets/images/icon-light.svg" alt="HexaBit Logo" className="img-fluid logo"/>
+                            <img src="/assets/images/icon-light.svg" alt="HexaBit Logo" className="img-fluid logo"/>
                         </a>
                         <button type="button" className="btn-toggle-offcanvas"><i className="lnr lnr-menu fa fa-bars"></i></button>
                     </div>
-                    <a href="javascript:void(0);" className="icon-menu btn-toggle-fullwidth"><i className="fa fa-arrow-left"></i></a>
-                    <ul className="nav navbar-nav">
+                    {/* <a href="javascript:void(0);" className="icon-menu btn-toggle-fullwidth"><i className="fa fa-arrow-left"></i></a> */}
+                    {/* <ul className="nav navbar-nav">
                         <li className="dropdown dropdown-animated scale-right">
                             <a href="javascript:void(0);" className="dropdown-toggle icon-menu" data-toggle="dropdown"><i className="icon-grid"></i></a>
                             <ul className="dropdown-menu menu-icon app_menu">
@@ -45,20 +45,20 @@ const Header = ()=>{
                         </li>
                         <li><a href="app-calendar.html" className="icon-menu d-none d-sm-block d-md-none d-lg-block"><i className="icon-calendar"></i></a></li>
                         <li><a href="app-chat.html" className="icon-menu d-none d-sm-block"><i className="icon-bubbles"></i></a></li>                    
-                    </ul>
-                </div>
+                    </ul> */}
+                </div>  
                 
                 <div className="navbar-right">
-                    <form id="navbar-search" className="navbar-form search-form">
+                    {/* <form id="navbar-search" className="navbar-form search-form">
                         <input value="" className="form-control" placeholder="Search here..." type="text"/>
                         <button type="button" className="btn btn-default"><i className="icon-magnifier"></i></button>
-                    </form>                
+                    </form>                 */}
 
                     <div id="navbar-menu">
                         <ul className="nav navbar-nav">
                             <li className="dropdown dropdown-animated scale-left">
                                 <a href="javascript:void(0);" className="dropdown-toggle icon-menu" data-toggle="dropdown">
-                                    <i className="icon-envelope"></i>
+                                    <i className="fa fa-shopping-cart"></i>
                                     <span className="notification-dot"></span>
                                 </a>
                                 <ul className="dropdown-menu right_chat email">
@@ -110,7 +110,7 @@ const Header = ()=>{
                             </li>
                             <li className="dropdown dropdown-animated scale-left">
                                 <a href="javascript:void(0);" className="dropdown-toggle icon-menu" data-toggle="dropdown">
-                                    <i className="icon-bell"></i>
+                                    <i className="fa fa-user"></i>
                                     <span className="notification-dot"></span>
                                 </a>
                                 <ul className="dropdown-menu feeds_widget">
@@ -162,8 +162,8 @@ const Header = ()=>{
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="javascript:void(0);" className="right_toggle icon-menu" title="Right Menu"><i className="icon-settings"></i></a></li>
-                            <li><a href="page-login.html" className="icon-menu"><i className="icon-power"></i></a></li>
+                            {/* <li><a href="javascript:void(0);" className="right_toggle icon-menu" title="Right Menu"><i className="icon-settings"></i></a></li>
+                            <li><a href="page-login.html" className="icon-menu"><i className="icon-power"></i></a></li> */}
                         </ul>
                     </div>
                 </div>
