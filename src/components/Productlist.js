@@ -11,22 +11,49 @@ const Productlist = ()=>{
             <div className="block-header">
                 <div className="row clearfix">
                     <div className="col-md-6 col-sm-12">
-                        <h2>Card Layout</h2>
+                        <h1>All NFTS</h1>
                     </div>            
-                    <div className="col-md-6 col-sm-12 text-right">
+                    {/* <div className="col-md-6 col-sm-12 text-right">
                         <ul className="breadcrumb">
                             <li className="breadcrumb-item"><a href="index.html"><i className="icon-home"></i></a></li>
                             <li className="breadcrumb-item">UI</li>
                             <li className="breadcrumb-item active">Card Layout</li>
                         </ul>
                         <a href="javascript:void(0);" className="btn btn-sm btn-primary" title="">Create New</a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
             <div className="container-fluid">   
                 <div className="row clearfix">
-                    <div className="col-12">
+                    <div className="col-md-3">
+                        <div className="sidebar-left filter-area">
+                            <h2>Filters</h2>
+                            <div className="mb-sm-5">
+                                <h4>Sort By</h4>
+                                <div className="">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+                                        <label class="form-check-label" for="flexRadioDefault1"> Most recent </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+                                        <label class="form-check-label" for="flexRadioDefault1"> Alphabetical </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="">
+                                <h4>Price range</h4>
+                                <div className="mb-sm-5">
+                                    
+                                <div class="irs-demo m-b-30">
+                                    <input type="text" id="range_03" value="" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-9">
                         <div className="card-columns mb-4">
                             <div className="card">
                                 <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>

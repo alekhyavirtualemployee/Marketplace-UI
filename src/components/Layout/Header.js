@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = ()=>{
     return (
@@ -8,7 +9,7 @@ const Header = ()=>{
                 <div className='navbar-left'>
                     <div className="navbar-btn">
                         <a href="index.html">
-                            <img src="/assets/images/icon-light.svg" alt="HexaBit Logo" className="img-fluid logo"/>
+                            <img src="/assets/images/dpp-logo.png" alt="HexaBit Logo" className="img-fluid logo"/>
                         </a>
                         <button type="button" className="btn-toggle-offcanvas"><i className="lnr lnr-menu fa fa-bars"></i></button>
                     </div>
@@ -56,6 +57,15 @@ const Header = ()=>{
 
                     <div id="navbar-menu">
                         <ul className="nav navbar-nav">
+                            <li className='p-2'><Link to="/">Home</Link></li>
+                            <li className='p-2'><Link to="/">About</Link></li>
+                            <li className='p-2'><Link to="/">Courses</Link></li>
+                            <li className='p-2'><Link to="/">Job Board</Link></li>
+                            <li className='p-2'><Link to="/">Shop</Link></li>
+                            <li className='p-2'><Link to="/">Report</Link></li>
+                            <li className='p-2'><Link to="/">Contact Us</Link></li>
+                            <li className='p-2'><Link to="/">Dashboard</Link></li>
+                            <li><Link to="/explore">Explore</Link></li>
                             <li className="dropdown dropdown-animated scale-left">
                                 <a href="javascript:void(0);" className="dropdown-toggle icon-menu" data-toggle="dropdown">
                                     <i className="fa fa-shopping-cart"></i>
