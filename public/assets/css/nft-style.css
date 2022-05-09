@@ -1,10 +1,13 @@
+body{
+    color: #222222;
+}
 .layout-fullwidth #wrapper #main-content{
-    background: #fcfcff;
+    background: #f9f9f9;
 }
 .card{
-    background: #fcfcff;
-    background-color: #fcfcff;
-    border-color: #fcfcff;
+    background: #f9f9f9;
+    background-color: #f9f9f9;
+    border-color: #f9f9f9;
 }
 
 .dashboard-cards .card-columns {
@@ -16,15 +19,38 @@
     }
 }
 .block-header{
-    background: #fcfcfc;
+    background: #f9f9f9;
 }
 .list-group-item {
-    background-color: #fcfcfc;
-    border-color: #fcfcfc;
+    background-color: #f9f9f9;
+    border-color: #f9f9f9;
 }
 .filter-area h4{
     font-size: 20px;
 }
 .navbar-nav>li a{
     color: #000;
+}
+footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+    background-color: #f9f9f9;
+}
+.footer-section li{
+    list-style-type: none;
+}
+.footer-section li a{
+    color: #222222;
+}
+div.connect ul li{
+    float: left;
+}
+div.connect ul li i{
+    color: #222222;
+}
+.footer-section .container-fluid{
+    background-color: #f9f9f9;
 }

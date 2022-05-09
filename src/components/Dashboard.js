@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Rightmenu, Leftmenu } from "./Layout";
+import { Header, Footer } from "./Layout";
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
@@ -56,7 +56,7 @@ const Dashboard = () => {
                                         </li>
                                     </ul>
                                 </div>*/}
-                                <div className="body">
+                                {/* <div className="body">
                                     <div className="row clearfix">
                                         <div className="col-5">
                                             <div className="sparkline-pie">6,4,8</div>
@@ -68,7 +68,7 @@ const Dashboard = () => {
                                             <span>Foods & Drinks <span className="float-right">120$</span></span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div> 
                         </div>
                     </div>
@@ -80,8 +80,9 @@ const Dashboard = () => {
                                 <div className="card">
                                     <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>
                                     <div className="card-body">
-                                    <h5 className="card-title">Card title that wraps to a new line</h5>
+                                    <h5 className="card-title">Stars</h5>
                                     <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <button className="btn btn-primary" type="button">Purchase</button>
                                     </div>
                                 </div>
                                 
@@ -94,8 +95,9 @@ const Dashboard = () => {
                                 <div className="card">
                                     <img className="card-img-top" src="/assets/images/nft1.png" alt="Card image cap"/>
                                     <div className="card-body">
-                                    <h5 className="card-title">Card title that wraps to a new line</h5>
+                                    <h5 className="card-title">FUND YOUR PROJECT</h5>
                                     <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <button className="btn btn-primary" type="button">Submit Project</button>
                                     </div>
                                 </div>
                                 
@@ -104,6 +106,7 @@ const Dashboard = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
